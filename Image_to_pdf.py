@@ -14,6 +14,7 @@ def image_pdf(image_path):
   parsed = image_file.convert("RGB")
   return parsed.save(new_file)
 if __name__ == "__main__":
+  #Add the path of the image
   image_path = 'cup_coffee_books.jpg'
   pdf = image_pdf(image_path)
   print(image_path)
